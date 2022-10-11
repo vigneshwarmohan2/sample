@@ -1,0 +1,278 @@
+/* creating a Navigation area */
+header {
+  display: inline-block;
+  position: relative;
+  width: fit-content;
+  top: 0;
+  left: 0;
+  padding-bottom: 10px;
+}
+nav ul li {
+  text-align: center;
+  color: #fff;
+  background-color: none;
+  margin: 0;
+  display: inline-flex;
+  border-radius: 0 7px;
+}
+nav ul li:hover {
+  background-color: rgb(55, 13, 94);
+}
+/* creation of logo */
+.logo img {
+  height: 102px;
+  width: max-content;
+  size: 5px !important;
+  margin-left: 30px;
+}
+body {
+  background-image: url();
+  background-size: cover;
+  background-attachment: fixed;
+}
+h1 {
+  color: red;
+  background-color: blueviolet;
+  padding: 40px;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: rgb(42, 169, 169);
+  text-decoration: underline;
+}
+p {
+  color: brown;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+p span {
+  font-weight: bold;
+}
+/* chaanging the pattern of whole page. */
+* {
+  /* background-color: blanchedalmond; */
+  border-color: crimson;
+  flex-basis: 100%;
+  /* border-radius: 8px; */
+}
+#user-form {
+  background-color: antiquewhite;
+  padding: 20px;
+  margin: 10px;
+}
+#username {
+  border-radius: 8px;
+}
+#password {
+  border-radius: 8px;
+  padding-right: 25px;
+}
+#mail {
+  border-radius: 8px;
+}
+/* creation of selector */
+#state {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  border-color: crimson;
+  border-radius: 8px;
+  border-style: bold;
+}
+#submit {
+  padding: 10px;
+}
+.software {
+  width: 100%;
+  /* height: 150px; */
+  clip-path: circle(50%);
+  padding: 40px 0;
+  height: fit-content;
+}
+.intro > p {
+  font-size: 30px;
+  color: aqua;
+}
+.intro h2 {
+  color: #0000ff;
+  border-style: solid;
+  border-color: coral;
+  border-radius: 8px;
+  background: #000;
+  padding: 30px;
+  text-decoration: underline;
+}
+.intro img:hover {
+  border-radius: 8px;
+  opacity: 0.7;
+}
+button:hover {
+  color: aliceblue;
+  background: deeppink;
+  transition-duration: 4ms;
+  border-radius: 8px;
+  transition-duration: 2ms;
+}
+.para p {
+  padding: 30px;
+  border-style: double;
+  border-color: cadetblue;
+  width: auto;
+  text-align: center;
+}
+.para h2 {
+  color: #0000ff;
+  text-decoration: underline;
+  font-weight: bold;
+  text-shadow: 1px 1px red;
+}
+/* creating the link buttons */
+.facebook {
+  background-color: blue;
+  border-radius: 8px;
+}
+.whatsapp {
+  background-color: rgb(58, 97, 58);
+  border-radius: 8px;
+}
+.instagram {
+  background-color: darkmagenta;
+  border-radius: 8px;
+}
+.list {
+  background-color: orange;
+  list-style-position: inside;
+  border-radius: 8px;
+}
+ol {
+  background-color: darkgreen;
+  padding: 20px;
+  border-radius: 8px;
+}
+li {
+  background-color: rgb(60, 13, 147);
+  padding: 10px;
+}
+/* creation of dropdown box */
+.dropbtn {
+  background-color: darkslategrey;
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+}
+.dropbtn:hover,
+.dropbtn:focus {
+  background-color: darkolivegreen;
+  display: block;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  position: absolute;
+  background-color: #f1f1f1;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding-bottom: 12px, 16px;
+  display: none;
+  width: 100%;
+  z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+  background-color: #ddd;
+  display: block;
+}
+.dropdown-content a {
+  display: block;
+  color: #000;
+  padding: 12px, 16px;
+  text-decoration: none;
+}
+/* creation of table */
+table,
+th,
+td {
+  border: 1px solid red;
+  background-color: darkgray;
+  text-align: center;
+  padding: 5px;
+}
+.quotation {
+  color: darkseagreen;
+  text-decoration: underline;
+}
+td:hover {
+  background-color: azure;
+}
+tr th {
+  background-color: firebrick;
+}
+/* combimators */
+#selector > h2 {
+  color: darkorchid;
+}
+#selector p {
+  color: #000;
+}
+/* pseudo elements */
+#selector > h2::before {
+  content: "Heading: ";
+}
+/* attributes using span element */
+span[title~="consectetur"] {
+  color: green;
+}
+/* creating a button to print */
+#print {
+  padding: 15px;
+}
+#print button {
+  background-color: #dae23e;
+  border-color: darkred;
+  border-radius: 8px;
+  cursor: pointer;
+}
+#print button:hover {
+  color: red;
+}
+/* media query */
+@media only screen and(min-width:768px) {
+}
+/* creation of Toast Button. */
+#toastButton {
+  visibility: hidden;
+  min-width: 250px;
+  margin-left: -125px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 2px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  bottom: 30px;
+  font-size: 17px;
+}
+#toastButton.show {
+  visibility: visible;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+@keyframes fadein {
+  from {
+    bottom: 0;
+    opacity: 0;
+  }
+  to {
+    bottom: 30px;
+    opacity: 1;
+  }
+}
+@keyframes fadeout {
+  from {
+    bottom: 30px;
+    opacity: 1;
+  }
+  to {
+    bottom: 0;
+    opacity: 0;
+  }
+}

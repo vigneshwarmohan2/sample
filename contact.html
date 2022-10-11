@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="cont.css" />
+    <title>Contact Us | Submission Form</title>
+  </head>
+  <header>
+    <nav>
+      <ul>
+        <a href="home.html"><li>HOME</li></a>
+        <li>ABOUT US</li>
+        <li href="#">BLOGS</li>
+        <li>CONTACT US</li>
+      </ul>
+    </nav>
+  </header>
+  <body>
+    <div class="logo">
+      <img src="/img/accept.png" />
+    </div>
+    <h1 align="center">CONTACT US</h1>
+    <div class="image" align="center">
+      <img src="./img/contact image.png" />
+    </div>
+    <div class="intro">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+        voluptate architecto, obcaecati dolorem possimus error itaque, dolor
+        voluptatem incidunt et nam asperiores, est quibusdam culpa ipsa deleniti
+        molestias perferendis! Totam!
+      </p>
+    </div>
+    <!-- feedback form -->
+    <div align="center">
+      <h1>GIVE ME A FEEDBACK...</h1>
+    </div>
+    <form id="feed" align="center">
+      <div>
+        <label class="name">NAME</label><br />
+        <input name="name" id="name" />
+      </div>
+      <br />
+      <div>
+        <label>MAIL ID</label><br />
+        <input name="mail" id="mail" />
+      </div>
+      <br />
+      <div>
+        <label>MESSAGE</label><br />
+        <input name="message" id="message" placeholder="Say Something.." />
+      </div>
+      <br />
+      <div>
+        <button type="submit" id="send" align="center" onclick="feedfunc()">
+          SEND
+        </button>
+      </div>
+    </form>
+    <div>
+      <h3>Also Contact Us In:</h3>
+    </div>
+    <div class="e-mail">
+      <img src="./img/email (1).png" />
+      <span>___________________@mail.com</span>
+    </div>
+    <br />
+    <div class="app">
+      <img src="./img/whatsapp.png" />
+      <span>+91-0000000000</span>
+    </div>
+    <br />
+    <div class="fb">
+      <img src="./img/facebook.png" />
+      <span>__________________________</span>
+    </div>
+    <br />
+    <div class="tweet">
+      <img src="./img/twitter.png" />
+      <span>@twitter</span>
+    </div>
+    <br />
+    <div>
+      <h3>Visit Us In:</h3>
+    </div>
+    <div class="locate">
+      <img src="./img/map.png" />
+      <span>Pallikaranai,Chennai.</span>
+    </div>
+    <script>
+      let form = document.getElementById("feed");
+      form.addEventListener("submit", function (event) {
+        event.preventDefault();
+      });
+      function feedfunc() {
+        alert("Thank you for giving a Feedback.");
+        let name = document.getElementById("name").value;
+        let mail = document.getElementById("mail").value;
+        let message = document.getElementById("message").value;
+        //creation of local storage.
+        var user = localStorage.setItem("Name", name);
+        var id = localStorage.setItem("MailId", mail);
+        var feed = localStorage.setItem("Message", message);
+      }
+      function like() {
+        alert("Thanks for likeing");
+      }
+      function dislike() {
+        alert("Sorry");
+      }
+    </script>
+  </body>
+  <footer>
+    <nav>
+      <h2 align="center">How was Your Experience.....</h2>
+      <div class="good">
+        <img onclick="like()" src="./img/thumbs-up.png" />
+      </div>
+      <br />
+      <div class="bad">
+        <img onclick="dislike()" src="./dislike.png" / align="center">
+      </div>
+    </nav>
+  </footer>
+</html>

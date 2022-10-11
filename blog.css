@@ -1,0 +1,255 @@
+/* creation ofnavigation bar */
+header {
+  display: inline-block;
+  position: relative;
+  width: fit-content;
+  top: 0;
+  left: 0;
+  padding-bottom: 10px;
+}
+nav ul li {
+  text-align: center;
+  color: #fff;
+  background-color: rgb(41, 2, 66);
+  margin: 0;
+  display: inline-flex;
+  border-radius: 0 7px;
+  padding: 10px;
+}
+nav ul li:hover {
+  background-color: rgb(55, 13, 94);
+}
+.logo img {
+  height: 102px;
+  width: max-content;
+  size: 5px !important;
+  margin-left: 30px;
+}
+/* welcome image */
+.book img {
+  width: 100%;
+  height: 100%;
+}
+h1 {
+  color: rgb(102, 40, 40);
+  text-decoration: underline;
+  /* text-shadow: 50%; */
+}
+.apps {
+  background-color: lightcoral;
+  width: 300px;
+  height: 400px;
+  border-radius: 8px;
+  margin-top: 30px;
+  margin-left: 15%;
+}
+.apps:hover {
+  background-color: lightpink;
+  border-style: solid;
+  border-color: red;
+  border-width: 2px;
+}
+/* creatiion of order */
+.apps img {
+  width: 250px;
+  margin: 25px;
+  border-radius: 50%;
+}
+.apps img:hover {
+  animation: rotation 8s infinite linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+.apps div {
+  text-align: center;
+  font-size: x-large;
+  font-weight: bold;
+  color: rgb(9, 48, 9);
+}
+.apps p {
+  color: rgb(71, 7, 32);
+}
+.apps button {
+  margin-left: 100px;
+  margin-top: 40px;
+  padding: 10px 0;
+  color: brown;
+  background-color: rgb(37, 117, 117);
+  width: fit-content;
+  border-radius: 5px;
+}
+.apps button:hover {
+  background-color: aquamarine;
+}
+/* web order */
+.web {
+  background-color: lightcoral;
+  width: 300px;
+  height: 400px;
+  float: right;
+  border-radius: 8px;
+  margin-right: 15%;
+}
+.web:hover {
+  background-color: lightpink;
+  border-style: solid;
+  border-color: red;
+  border-width: 2px;
+}
+.web img {
+  width: 250px;
+  margin: 25px;
+  border-radius: 50%;
+}
+.web img:hover {
+  animation: rotation 8s infinite linear;
+}
+@keyframes rotation {
+  from {
+    rotate: 0deg;
+  }
+  to {
+    rotate: 359deg;
+  }
+}
+.web div {
+  color: rgb(9, 48, 9);
+  text-align: center;
+  font-size: x-large;
+  font-weight: bold;
+}
+.web p {
+  color: rgb(71, 7, 32);
+  margin-top: 25px;
+}
+.web button {
+  margin-left: 100px;
+  margin-top: 40px;
+  padding: 10px 0;
+  color: brown;
+  width: fit-content;
+  background-color: rgb(37, 117, 117);
+  border-radius: 5px;
+}
+.web button:hover {
+  background-color: aquamarine;
+}
+/* digital marketing */
+.market {
+  background-color: lightcoral;
+  width: 300px;
+  height: 450px;
+  float: left;
+  border-radius: 8px;
+  margin-left: 15%;
+  margin-top: 450px;
+}
+.market:hover {
+  background-color: lightpink;
+  border-style: solid;
+  border-color: red;
+  border-width: 2px;
+}
+.market img {
+  width: 250px;
+  height: 150px;
+  margin: 25px;
+  border-radius: 50%;
+}
+.market img:hover {
+  animation: rotation 8s infinite linear;
+}
+@keyframes rotation {
+  from {
+    rotate: 0deg;
+  }
+  to {
+    rotate: 359deg;
+  }
+}
+.market div {
+  color: rgb(9, 48, 9);
+  text-align: center;
+  font-size: x-large;
+  font-weight: bold;
+}
+.market p {
+  color: rgb(71, 7, 32);
+  margin-top: 25px;
+}
+.market button {
+  margin-left: 100px;
+  margin-top: 40px;
+  padding: 10px 0;
+  color: brown;
+  width: fit-content;
+  background-color: rgb(37, 117, 117);
+  border-radius: 5px;
+}
+.market button:hover {
+  background-color: aquamarine;
+}
+/* seo order */
+.seo {
+  background-color: lightcoral;
+  width: 300px;
+  height: 450px;
+  float: right;
+  border-radius: 8px;
+  margin-right: 15%;
+  margin-top: 550px;
+}
+.seo:hover {
+  background-color: lightpink;
+  border-style: solid;
+  border-color: red;
+  border-width: 2px;
+}
+.seo img {
+  width: 250px;
+  height: 150px;
+  margin: 25px;
+  border-radius: 50%;
+}
+.seo img:hover {
+  animation: rotation 8s infinite linear;
+}
+@keyframes rotation {
+  from {
+    rotate: 0deg;
+  }
+  to {
+    rotate: 359deg;
+  }
+}
+.seo div {
+  color: rgb(9, 48, 9);
+  text-align: center;
+  font-size: x-large;
+  font-weight: bold;
+}
+.seo p {
+  color: rgb(71, 7, 32);
+  margin-top: 25px;
+}
+.seo button {
+  margin-left: 100px;
+  margin-top: 40px;
+  padding: 10px 0;
+  color: brown;
+  width: fit-content;
+  background-color: rgb(37, 117, 117);
+  border-radius: 5px;
+}
+.seo button:hover {
+  background-color: aquamarine;
+}
+/* media query */
+@media only screen and(min-width:768px) {
+}

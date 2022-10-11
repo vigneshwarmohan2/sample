@@ -1,0 +1,109 @@
+/* creation of about us page */
+header {
+  display: inline-block;
+  position: relative;
+  width: fit-content;
+  top: 0;
+  left: 0;
+  padding-bottom: 10px;
+}
+nav ul li {
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: rgb(41, 2, 66);
+  margin: 0;
+  display: inline-flex;
+  border-radius: 0 7px;
+  padding: 10px;
+}
+nav ul li:hover {
+  background-color: rgb(55, 13, 94);
+}
+/* .about h1 {
+  color: orangered;
+  background-color: bisque;
+  padding: 10px 0;
+  border-style: solid;
+  border-radius: 8px;
+  text-decoration: underline;
+} */
+p {
+  color: goldenrod;
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* creating a image */
+.image img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+/* creation of logo */
+.logo img {
+  height: 102px;
+  width: max-content;
+  size: 5px !important;
+  margin-left: 30px;
+}
+.partner h2 {
+  color: maroon;
+  font-size: xx-large;
+  text-decoration: underline;
+}
+.create {
+  background-color: tomato;
+  border-radius: 5px;
+  float: left;
+  width: 33.33%;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.create h2 {
+  text-decoration: underline;
+}
+.work {
+  background-color: seagreen;
+  border-radius: 5px;
+  float: left;
+  width: 33.33%;
+  text-align: center;
+  color: #fff;
+  padding-bottom: 20px;
+}
+.work h2 {
+  text-decoration: underline;
+}
+.product {
+  background-color: rgb(182, 113, 29);
+  border-radius: 5px;
+  float: left;
+  width: 33.33%;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.product h2 {
+  text-decoration: underline;
+}
+.layout {
+  padding-bottom: 50px;
+}
+/* creation of partner icon */
+.partner h2 {
+  padding-bottom: 10px;
+}
+.apple img {
+  width: 70px;
+  padding-top: 40px;
+}
+.uber img {
+  width: 70px;
+  padding-top: 40px;
+}
+.amd img {
+  width: 70px;
+  padding-top: 40px;
+}
+/* media query */
+@media only screen and(min-width:768px) {
+}

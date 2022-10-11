@@ -1,0 +1,170 @@
+<html>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <head>
+    <title>Submission Form</title>
+    <link rel="stylesheet" type="text/css" href="./form.css" />
+    <header>
+      <nav>
+        <ul>
+          <li href="#">HOME</li>
+          <a href="about.html">
+          <li>ABOUT US</li></a>
+          <a href="blog.html">
+          <li href="#">BLOGS</li></a>
+          <a href="contact.html">
+          <li>CONTACT US</li></a>
+        </ul>
+      </nav>
+    </header>
+    <body>
+      <div class="logo">
+        <img src="/img/accept.png"/>
+      </div>
+      <center>
+        <h1>RIGHT SOLUTIONS</h1>
+        <form action="/somepath" method="post" id="user-form">
+          <div class="form">
+            <label for="username">Name</label>
+            <input name="user" id="username" placeholder="User Name" required />
+          </div>
+          <br />
+          <div>
+            <label for="password">Password</label>
+            <input
+              name="password"
+              id="password"
+              placeholder="Password"
+              required
+            />
+          </div>
+          <br />
+          <div>
+            <label for="mail">MailId</label>
+            <input name="mail" id="mail" placeholder="MailId" required />
+          </div>
+          <br />
+          <div label="State" id="label">State</div>
+          <div>
+            <select name="State" id="state" required>
+              <option value="selected">[Selector]</option>
+              <option value="Tamil nadu">Tamilnadu</option>
+              <option value="Kerala">Kerala</option>
+              <option value="Andhra">Andhra</option>
+              <option value="Karnataka">Karnataka</option>
+              <option value="New Delhi">New Delhi</option>
+              <option value="Maharastra">Maharastra</option>
+              <option value="Pondicherry">Pondicherry</option>
+            </select>
+          </div>
+          <br>
+          <button type="submit" id="submit" onclick="clearFunction()">SUBMIT</button>
+        </form>
+      </center>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic voluptate
+        aut quasi? totam neque doloribus fuga eos inventore odit.
+        <span>Quasi</span>
+        voluptate unde perspiciatis, perferendis soluta cumque iste voluptatibus
+        consectetur?
+      </p>
+      <hr/>
+      <!-- css selector -->
+      <div class="intro" align="center">
+        <h2>CSS PROJECT</h2>
+        <img class="software" src="/img/software image.jpg"/>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic
+          voluptate aut quasi? totam neque doloribus fuga eos inventore odit.
+          <span>Quasi</span>
+          voluptate unde perspiciatis, perferendis soluta cumque iste
+          voluptatibus consectetur?
+        </p>
+      </div>
+      <div class="dropdown">
+        <button2 class="dropbtn">BRANCHES</button2>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="#" align="center">CHENNAI</a>
+          <a href="#" align="center">MUMBAI</a>
+          <a href="#" align="center">DELHI</a>
+        </div>
+      </div>
+      <div class="para">
+        <h2 align="center">NEW PARA</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ratione
+          culpa, velit, quisquam aspernatur officia nemo consequatur doloremque
+          suscipit cupiditate laudantium nostrum accusantium alias tempore nobis
+          quod enim quasi perspiciatis! Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Obcaecati deserunt fuga odio? Explicabo officia unde
+          ipsa numquam repellat libero est, ad, aliquam eaque vitae laborum,
+          placeat voluptates atque deserunt vel!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum ipsa,
+          quas amet eum fuga dolorem tenetur magni ipsum officia rem nobis
+          molestias at. Distinctio, delectus voluptatem alias dolorum aperiam
+          omnis! Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          Tenetur, odit obcaecati sed recusandae quod voluptatum omnis iure
+          blanditiis adipisci ullam illum impedit autem quam et, vero laboriosam
+          ipsam quas repudiandae.
+        </p>
+      </div>
+      <div class="list">
+        <h2>Services Offered:</h2>
+        <ol>
+          <li>App Creation</li>
+          <li>Web Development</li>
+          <li>Digital Marketing</li>
+          <li>Search Engine Optimization</li>
+        </ol>
+      </div>
+      <div class="quotation">
+        <h2 align="center">Services and Prices</h2>
+      </div>
+      <table style="width:100%">
+        <tr>
+        <th>SERVICES</th>
+        <th>PRICES</th>
+        </tr>
+        <tr>
+          <td>App Creation</td>
+          <td> &#8377 20000</td>
+        </tr>
+        <tr>
+          <td>Web Development</td>
+          <td>&#8377 50000</td>
+        </tr>
+        <tr>
+          <td>Digital Marketing</td>
+          <td>&#8377 75000</td>
+        </tr>
+        <tr>
+          <td>Search Engine Optimization</td>
+          <td>&#8377 15000</td>
+        </tr>
+      </table>
+      <div id="selector">
+        <h2>Combinators</h2>
+        <p>Lorem ipsum dolor sit amet <span title="consectetur">consectetur</span> adipisicing elit. Optio eius quos at inventore itaque perspiciatis consequuntur debitis, provident quibusdam corrupti quasi aperiam, ut molestiae possimus odio adipisci modi, quo commodi!</p>
+      </div>
+      <div align="center">
+        <h2>Social Links</h2>
+        <a href="http://www.facebook.com/">
+          <button class="facebook">Facebook</button>
+        </a>
+        <a href="http://web.whatsapp.com/">
+           <button class="whatsapp">Whatsapp</button>
+        </a>
+        <a href="http://www.instagram.com/?hl=en">
+          <button class="instagram">Instagram</button>
+        </a>
+      </div>
+      <div id="print" align="center">
+        <button type="print" onclick="printfunc()">print</button>
+      </div>
+      <div id="toastButton">Your Search is On the Way</div>
+      <button type="toast" onclick="toastfunc()">ToastBtn</button>
+      <script src="form.js"></script>
+    </body>
+  </head>
+</html> 

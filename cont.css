@@ -1,0 +1,145 @@
+/* creation of contact us page */
+header {
+  display: inline-block;
+  position: relative;
+  width: fit-content;
+  top: 0;
+  left: 0;
+  padding-bottom: 10px;
+}
+nav ul li {
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: rgb(41, 2, 66);
+  margin: 0;
+  display: inline-flex;
+  border-radius: 0 7px;
+  padding: 10px;
+}
+nav ul li:hover {
+  background-color: rgb(55, 13, 94);
+}
+.logo img {
+  height: 102px;
+  width: max-content;
+  size: 5px !important;
+  margin-left: 30px;
+}
+h1 {
+  color: rgb(218, 95, 95);
+  font-size: xx-large;
+  text-decoration: underline;
+}
+/* Banner creation */
+.image img {
+  padding: 50px 0;
+  width: 100%;
+  height: 100%;
+}
+.intro p {
+  text-align: center;
+  color: darksalmon;
+  font-size: x-large;
+}
+/* creation of form */
+/* #form input {
+  padding: 10px 10px;
+  width: 100px;
+} */
+label .name {
+  padding: 0 5px;
+}
+form #name {
+  width: 250px;
+  height: 50px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: rgb(113, 20, 20);
+  border-width: 3px;
+}
+form #mail {
+  width: 250px;
+  height: 50px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: rgb(113, 20, 20);
+  border-width: 3px;
+}
+form #message {
+  width: 250px;
+  height: 100px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: rgb(113, 20, 20);
+  border-width: 3px;
+}
+#send {
+  padding: 10px 40px;
+  background-color: rgb(57, 57, 142);
+  border-radius: 5px;
+}
+#send:hover {
+  background-color: blueviolet;
+}
+h3 {
+  color: darkcyan;
+  font-size: xx-large;
+  padding-left: 50px;
+  text-decoration: underline;
+}
+.e-mail img {
+  width: 45px;
+  padding-left: 45%;
+}
+.app img {
+  width: 45px;
+  padding-left: 45%;
+  padding-top: 10px;
+}
+.app span {
+  font-size: x-large;
+}
+.fb img {
+  width: 45px;
+  padding-left: 45%;
+  padding-top: 10px;
+}
+.tweet img {
+  width: 45px;
+  padding-left: 45%;
+  padding-top: 10px;
+}
+.locate img {
+  width: 300px;
+  padding-left: 20%;
+}
+.locate span {
+  font-size: x-large;
+  padding-left: 20px;
+}
+/* creation of footer */
+nav h2 {
+  color: rgb(84, 84, 218);
+  margin-top: 25px;
+  text-decoration: underline;
+  font-size: xx-large;
+}
+.good img {
+  width: 45px;
+  margin-left: 47%;
+}
+.bad img {
+  width: 45px;
+  margin-left: 47%;
+}
+footer {
+  background-color: blueviolet;
+  border-radius: 5px;
+}
+footer:hover {
+  background-color: rgb(93, 44, 139);
+}
+/* media query */
+@media only screen and(min-width:768px) {
+}
